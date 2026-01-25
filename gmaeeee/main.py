@@ -7,7 +7,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
-        pygame.display.set_caption("Forest Survivor: CS2 Edition")
+        pygame.display.set_caption("Forest shooter")
         pygame.mouse.set_visible(False)
         self.clock = pygame.time.Clock()
         self.fonts = {
